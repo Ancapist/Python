@@ -1,3 +1,3 @@
 # pygame_mario
 
-szybki projekt z Eternalynx ( https://github.com/Eternalynx )
+szybki projekt stworzony razem z Eternalynx ( https://github.com/Eternalynx )
