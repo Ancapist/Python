@@ -1,0 +1,20 @@
+                                              DDC
+                                              DDX         
+                                C             D X
+                                C               X
+                                AAAAA        A  X
+                                    C  A       HX
+                                                X
+ DDDCHD                             H       A   X
+                                                X
+             BDD                               AX
+      A                               H         X
+     KA              A                    R     X
+     AA      B       A        C          PPP    X
+    AAA              AA                 APPP    X
+   AAAA              AA                  PPP    X
+  AAAAA              AA       K  K       PPP    X
+XXXXXXX              XXXXXXXXXXXXXXXXXXXXXXX    X
+XXXXXXX              XXXXXXXXXXXXXXXXXXXXXXX    X
+XXXXXXX              XXXXXXXXXXXXXXXXXXXXXXX    X
+XXXXXXXSSSSSSSSSSSSSSXXXXXXXXXXXXXXXXXXXXXXXSSSSX

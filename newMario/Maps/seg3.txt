@@ -1,0 +1,20 @@
+                                                 
+                                                 
+                                  C              
+                                      A          
+                                A                
+                               A                 
+                           A                     
+                                                 
+                      A                   A      
+             A                                   
+                  A                              
+          A                                     
+                                 C              
+     A                           A                
+                      C                          
+                      C                          
+XXX                   C   A     A     A      XXXX
+XXX                   C                      XXXX
+XXX                   A                      XXXX
+XXXSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSXXXX
