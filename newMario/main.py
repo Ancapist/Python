@@ -156,6 +156,12 @@ def whatBlock():
                 block.rect.y = row*utils.tilesize
                 spritelist.add(block)
                 spriteHidden.add(block)
+            if tile =='F':
+                block = ad.HiddenOn(utils.black,col,row)
+                block.rect.x = col*utils.tilesize
+                block.rect.y = row*utils.tilesize
+                spritelist.add(block)
+                spriteHidden.add(block)
 
 def game_loop():
     global mapData
