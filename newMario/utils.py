@@ -6,6 +6,7 @@ display_width = 1568  #   1280 / 32 = 40
 display_height = 640 # 640 / 32 = 20
 tilesize = 32
 
+gray = (100,100,100)
 black = (0,0,0)
 white = (255,255,255)
 red = (200,0,0)
