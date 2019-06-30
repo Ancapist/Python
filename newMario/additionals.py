@@ -1,5 +1,6 @@
 import pygame
 import utils
+import timeit
 
 class Block(pygame.sprite.Sprite):
     def __init__(self,color,x,y):
@@ -71,8 +72,9 @@ class HiddenOff(pygame.sprite.Sprite):
 class HiddenOn(pygame.sprite.Sprite):
     def __init__(self,color,x,y):
         super().__init__()
-        self.image = pygame.image.load("Game/pipe.png")
+        self.image = pygame.image.load("Game/wall.png")
         self.rect = self.image.get_rect()
         self.rect.x = x * utils.tilesize
         self.rect.y = y * utils.tilesize
-        self.startTime = -1
+        self.start = -1
+        self.startTime = -100
