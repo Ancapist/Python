@@ -5,8 +5,8 @@ def load_data():
 
     def can_jump(x, y):
         print(x - 5," ",y)
-        xmin = (x - 4) * (x - 5 > 0)
-        xmax = (x + 4) * (x + 5 < 39)
+        xmin = (x - 3) * (x - 3 > 0)
+        xmax = (x + 3) * (x + 3 < 39)
         ymin = y + 1
         ymax = (y + 4)
         if y + 4 > 19: ymax = 19
