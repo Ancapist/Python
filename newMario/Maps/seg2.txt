@@ -1,0 +1,20 @@
+       PPP      PPP      PPP      PPP            
+       PPP      PPP               PPP            
+       PPP      PPP               PPP            
+        C       PPP               PPP            
+                PPP               PPP            
+                          R       PPP       C    
+       PPP               PPP      PPP            
+       PPPP              PPP      PPP            
+       PPP    P          PPP                R    
+                 R    A  PPP             C PPP   
+                PPP      PPP             A PPP   
+          H     PPP      PPP               PPP   
+                PPP      PPP       R       PPP   
+        R       PPP      PPP      PPP     HPPP   
+       PPP      PPP      PPP      PPP      PPP   
+       PPP      PPP      PPP      PPP      PPP   
+XXXXXXXXXX      XXX      XXX     CXXC   H  XXXXXX
+XXXXXXXXXX      XXX      XXX     CCCC      XXXXXX
+XXXXXXXXXX      XXX      XXX     CCC       XXXXXX
+XXXXXXXXXXSSSSSSXXXSSSSSSXXXSSSSSXXXXSSXXSSXXXXXX

@@ -1,0 +1,7 @@
+Wybrac 3-4 plansze
+dodać blok który znika kiedy z niego schodzimy
+a potem dopiero generowane
+(opcjonalnie ulepszyć ten algorytm)
+pieniazki zeby wszystkie zebrać
+(algorytm ktory utrudnia- im dalej tym trudniejszy poziom sie generuje)
+
