@@ -75,3 +75,4 @@ class HiddenOn(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.x = x * utils.tilesize
         self.rect.y = y * utils.tilesize
+        self.startTime = -1
