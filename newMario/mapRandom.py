@@ -1,7 +1,26 @@
 import random
 
+
 def load_data():
 
+    def can_jump(x, y):
+        print(x - 5," ",y)
+        xmin = (x - 4) * (x - 5 > 0)
+        xmax = (x + 4) * (x + 5 < 39)
+        ymin = y + 1
+        ymax = (y + 4)
+        if y + 4 > 19: ymax = 19
+
+        if mapArray[y-1][x] != 0:
+            return False
+
+        for i in range(xmin, xmax+1):
+            for j in range(ymin, ymax+1):
+                if mapArray[j][i] == 'B':
+                    print("xxx")
+                    return True
+
+        return False
 
     mapArray = [[0] * 49 for i in range(20)]
 
@@ -24,7 +43,7 @@ def load_data():
         elif 16 + height < 0:
             height += 3
 
-        gap = random.randrange(1, 4)
+        gap = random.randrange(1, 5)
 
         for j in range(platform, platform + gap):
             mapArray[16 + height][j] = 'B'
@@ -36,7 +55,7 @@ def load_data():
 
         platform += gap
 
-        gap = random.randrange(0,6)
+        gap = random.randrange(0,5)
 
         platform += gap
 
@@ -44,10 +63,10 @@ def load_data():
         for i in range(16+j,20):
             mapArray[i][49 - j - 1] = 'X'
 
-    for i in range(5):
+    for i in range(15):
         x = random.randrange(0,39)
         y = random.randrange(12,19)
-        if mapArray[y][x] == 0:
+        if mapArray[y][x] == 0 and can_jump(x, y):
             mapArray[y][x] = 'C'
 
     for i in range(0,49):
